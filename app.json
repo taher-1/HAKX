@@ -1,0 +1,40 @@
+{
+    "name": "DRAGON BOT HACK",
+    "description": "A bot CAN DO ANYTHING",
+    "logo": "",
+    "keywords": [
+        "TELETHON",
+        "X ARMY",
+        "Telegram Bot",
+        "piro bolte",
+        "LEGENDX22"
+    ],
+    "website": "",
+    "success_url": "https://t.me/Dragon_2022_D",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "اجلب توكن من بوت فاذر @BotFather",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "ضع الايبي هاش هنا.telegram.org",
+            "value": ""
+        },
+        "APP_ID": {
+            "description": "ضع الايبي ايدي هنا.telegram.org",
+            "value": ""
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
